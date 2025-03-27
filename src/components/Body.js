@@ -1,10 +1,12 @@
-import React from 'react'
-import Header from './Header'
+import React from 'react';
+import Login from './Login';
+import Browse from './Browse';
 
 function Body() {
   return (
     <div>
-      <Header/>
+      <Login/>
+      <Browse/>
     </div>
   )
 }
