@@ -37,3 +37,4 @@
 3. why clicking on submit button refreshes the page => because we have not written onsubmit button, and form tries to submit the form, so prevent it to happen
 4. GOOGLE FIREBASE 
 5. as soon as a new user is registered , i am udating the profile with the name and img
+6. moved the onauthstatechanged, because we were getting error that we cant use the navigation outside the routes, to the location which will be present everytime , header
