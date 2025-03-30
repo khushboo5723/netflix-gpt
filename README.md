@@ -12,7 +12,7 @@
 11. deploying app to prod
 12. create signup in firebase
 13. created redux store and user slice
-14. 
+14. bug fixes, unsubscribe to authchangecallback fn
 
 
  # features

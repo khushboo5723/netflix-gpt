@@ -18,7 +18,7 @@ function Header() {
   }
 
   useEffect(()=>{
-    onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         const {uid, displayName, email} = user;
         dispatch(addUser({uid:uid, displayName: displayName, email:email}))
@@ -29,6 +29,8 @@ function Header() {
         navigate('/');
       }
     });
+    // unsubscribe to the onauth callback when the component unmounts
+    return ()=> unsubscribe();
   },[])
   return (
 
