@@ -13,6 +13,18 @@
 12. create signup in firebase
 13. created redux store and user slice
 14. bug fixes, unsubscribe to authchangecallback fn
+15. tmdb (movie database), create account, setup the app, get access key and token
+16. fetch the nowplayingmovies via tmdb api 
+17. store that data in redux
+18. main component 
+    - videotitle & description
+    - video trailer
+    secondary component
+     - trending/ ... *n
+     - movie cards *n
+19. custom hook
+20. update store with movies and trailer
+21. embeded youtube video and make it autoplay & mute
 
 
  # features
@@ -38,3 +50,4 @@
 4. GOOGLE FIREBASE 
 5. as soon as a new user is registered , i am udating the profile with the name and img
 6. moved the onauthstatechanged, because we were getting error that we cant use the navigation outside the routes, to the location which will be present everytime , header
+7. because of reacts strictmode , most of the things(api call) happens twice in local dev mode, because react cheks 2wice for inconsistency
