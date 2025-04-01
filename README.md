@@ -25,6 +25,11 @@
 19. custom hook
 20. update store with movies and trailer
 21. embeded youtube video and make it autoplay & mute
+22. created secondary component
+23. built movie list & movie card
+24. TMDB img CDN url
+25. multiple custom hooks
+26. 
 
 
  # features
